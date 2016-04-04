@@ -1,7 +1,7 @@
 /*** USE THIS FILE TO SET OPTIONS ***/
 
 setParams({
-    graphFile : "miserables.gexf",
+    graphFile : "1269683to1275443.gexf",
         /*
             The GEXF file to show ! -- can be overriden by adding
             a hash to the document location, e.g. index.html#celegans.gexf
@@ -18,7 +18,7 @@ setParams({
         /*
             Default zoom level. At zoom = 0, the graph should fill a 800x700px zone
          */
-    curvedEdges : true,
+    curvedEdges : false,
         /*
             False for curved edges, true for straight edges
             this setting can't be changed from the User Interface
@@ -29,7 +29,7 @@ setParams({
             this setting can't be changed from the User Interface
         */
     minEdgeWidth : 1,
-    maxEdgeWidth : 50,
+    maxEdgeWidth : 5,
     textDisplayThreshold: 9,
     nodeSizeFactor : 1,
         /*
